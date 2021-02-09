@@ -102,7 +102,7 @@ hr {
 }
 
 ul.a {
-	list-style-type: circle;
+	list-style-type: none;
 	text-align: center;
 	list-style-position: inside;
 	color: #6495ED;
