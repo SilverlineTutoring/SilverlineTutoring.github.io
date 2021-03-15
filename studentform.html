@@ -1,47 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Student Form</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-	  <link rel="icon" 
-      type="image/png" 
-      href="https://i.imgur.com/eyfihLu.png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script>
-  function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-  }
-</script>
-	<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-	  <div id="header" class="container-fluid">
-				<div class="fade-in-pic"><img src="https://cdn.discordapp.com/attachments/806589141571338240/806597374096965657/image0_3_1.png" alt="Silverline Tutoring Logo" class="center"></div>
-        <!-- Logo by Abbyy#9250 -->
-              <br/><div class = "fade-in-text"><h2>
-Student Form
 
-			  </h2></div></div>
-<div class = "fade-in-text" text-align:"center">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeXnUEmZc1B9Zm7TyqKdWc0dk7Yrgro3GCM2i-kzKBhjQLTkw/viewform?embedded=true" width="100%" height="2600px" frameborder="0" marginheight="0" marginwidth="0" onload="resizeIframe(this)">Loading…</iframe>
-</div>
-  </body>
-  <div id="footer"><p><br/>Contact Info/Links</p>
-		              <div>
-                <a href="mailto:silverlinetutoring2021@gmail.com" target="_blank" title="Email Us">
-                    <img alt="GMail" src="https://www.google.com/gmail/about/static/images/logo-gmail.png?cache=1adba63" />
-                </a>
-                <a href="https://discord.gg/nN7XfMUrEh" target="_blank" title="Join Our Discord">
-                    <img alt="Discord" src="https://www.pngkit.com/png/full/17-179788_discord-logo-01-discord-logo-png.png"/>
-                </a>
-                <a href="studentform.html" target="_blank" title="Student Application">
-                    <img alt="Student Form" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Forms_2020_Logo.svg/1200px-Google_Forms_2020_Logo.svg.png" />
-				</a>
-				<a href="tutorform.html" target="_blank" title="Tutor Application">
-                    <img alt="Tutor Form" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Forms_2020_Logo.svg/1200px-Google_Forms_2020_Logo.svg.png"/>
-                </a>
-            </div></div>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width" name="viewport">
+
+	<title>Student Form</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://cdn.discordapp.com/attachments/795637027906781184/813792680185298985/image1.png" rel="icon" type="image/png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow"><!-- jQuery library -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script><!-- Latest compiled JavaScript -->
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js">
+	</script>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body style="background-color: silver">
+	<header>
+		<div class="overlay" id="myNav">
+			<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+
+			<div class="overlay-content">
+				<a href="index.html" title="Home">Home</a> <a href="admins.html" title="Meet the Team">Meet the Team</a> <a href="#">FAQs</a> <a href="studentform.html" title="Student Application">Student Form</a> <a href="tutorform.html" title="Tutor Application">Tutor Form</a>
+			</div>
+		</div>
+		<span onclick="openNav()" style="font-size:30px; cursor:pointer; position: relative; top: 20px; left: 45px;">&#9776;</span>
+	</header>
+	<script>
+	       function openNav() {
+	 document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	 document.getElementById("myNav").style.width = "0%";
+	}
+	 function resizeIframe(obj) {
+	   obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+	 }
+	</script>
+
+	<div class="container-fluid" id="header">
+		<div class="fade-in-pic"><img alt="Silverline Tutoring Logo" class="center" src="https://cdn.discordapp.com/attachments/806589141571338240/813815945738977281/image0_4_1.png">
+		</div>
+		<!-- Logo by Abbyy#9250 -->
+		<br>
+
+
+		<div class="fade-in-text">
+			<h2>Student Form</h2>
+		</div>
+	</div>
+
+
+	<div class="fade-in-text">
+		<iframe frameborder="0" height="2600px" marginheight="0" marginwidth="0" onload="resizeIframe(this)" src="https://docs.google.com/forms/d/e/1FAIpQLSeXnUEmZc1B9Zm7TyqKdWc0dk7Yrgro3GCM2i-kzKBhjQLTkw/viewform?embedded=true" width="100%">Loading…</iframe>
+	</div>
+
+
+	<div id="footing">
+		<p><br>Contact Info/Links</p>
+
+
+		<div>
+			<a href="mailto:silverlinetutoring2021@gmail.com" target="_blank" title="Email Us"><img alt="GMail" src="https://cdn.discordapp.com/attachments/806589141571338240/808840410147192882/UH97Tiz.png"></a> <a href="https://discord.gg/nN7XfMUrEh" target="_blank" title="Join Our Discord"><img alt="Discord" src="https://www.pngkit.com/png/full/17-179788_discord-logo-01-discord-logo-png.png"></a> <a href="studentform.html" target="_blank" title="Student Application"><img alt="Student Form" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Forms_2020_Logo.svg/1200px-Google_Forms_2020_Logo.svg.png"></a> <a href="tutorform.html" target="_blank" title="Tutor Application"><img alt="Tutor Form" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Forms_2020_Logo.svg/1200px-Google_Forms_2020_Logo.svg.png"></a> <a href="admins.html" target="_blank" title="Meet The Team"><img alt="Meet The Team" src="https://cdn.onlinewebfonts.com/svg/img_415067.png"></a>
+		</div>
+	</div>
+</body>
 </html>
