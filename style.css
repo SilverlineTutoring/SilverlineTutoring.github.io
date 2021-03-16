@@ -179,6 +179,18 @@ ul>li>a:visited {
 	color: #6495ED;
 }
 
+hr{
+	margin: 10px;
+}
+
+.carousel-inner img{ 
+    filter: brightness(75%)
+}
+
+.carousel-caption p{
+	color: white;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
