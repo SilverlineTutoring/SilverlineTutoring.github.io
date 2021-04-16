@@ -184,11 +184,20 @@ hr{
 }
 
 .carousel-inner img{ 
-    filter: brightness(75%)
+    filter: brightness(60%)
 }
+
+.carousel-caption {
+	position: relative;
+	font-size: min(100%, 2vw);
+	color: #6495ED
+	
+}
+
 
 .carousel-caption p{
 	color: white;
+	
 }
 
 .center {
